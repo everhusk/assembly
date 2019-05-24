@@ -1,0 +1,72 @@
+.profile-form-wrapper {
+  margin: 0 auto;
+  max-width: 560px;
+  width: 500px;
+
+  .welcome {
+    margin-top: 40px !important;
+    margin-bottom: 40px !important;
+  }
+}
+
+.profile-form {
+  form {
+    margin-top: 30px;
+
+    .email-wrapper {
+      margin-top: 30px;
+      margin-bottom: 60px;
+    }
+
+    .field-wrapper {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    .actions {
+      margin-top: 40px;
+
+      .submit-wrapper {
+        text-align: right;
+      }
+    }
+  }
+}
+
+.profile {
+  .avatar {
+    float: left;
+    margin-top: -125px;
+    margin-left: -25px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #F39531;
+  }
+
+  .username {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+
+    button {
+      margin-bottom: 25px;
+    }
+
+    a {
+      font-size: 19px;
+      color: #000;
+      text-decoration: none;
+      margin-right: 30px;
+      margin-top: 5px;
+      display: inline-block;
+
+      &:last-child {
+        margin-right: 0 !important;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
