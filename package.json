@@ -54,7 +54,7 @@
     "apollo": "^2.3.0",
     "babel-core": "^6.26.3",
     "flow-bin": "^0.89.0",
-    "terser": "3.14.1"
+    "terser": "4.8.1"
   },
   "babel": {
     "presets": [
@@ -91,6 +91,6 @@
     "not op_mini all"
   ],
   "resolutions": {
-    "terser": "3.14.1"
+    "terser": "4.8.1"
   }
 }
